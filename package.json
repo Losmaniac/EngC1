@@ -1,0 +1,11 @@
+{
+  "name": "c1-c2-forge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "data": "node scripts/build-data.mjs",
+    "enrich": "node scripts/enrich.mjs",
+    "icons": "node scripts/make-icons.mjs"
+  }
+}

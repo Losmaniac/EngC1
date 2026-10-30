@@ -1,0 +1,19 @@
+{
+ "module": "speaking",
+ "kind": "task",
+ "examPart": "S2",
+ "items": [
+  {"id": "s-decisions", "title": "Making decisions", "prompt": "Compare two of these situations. Why might the people need to decide quickly? How difficult might the decision be?", "points": ["a surgeon in an operating theatre", "a trader on a busy stock-exchange floor", "a family choosing a new home"], "prep": 15, "time": 60},
+  {"id": "s-together", "title": "Working together", "prompt": "Compare two of these situations. How are the people working together, and what might be challenging for them?", "points": ["an orchestra rehearsing", "a pit crew during a motor race", "colleagues brainstorming on a video call"], "prep": 15, "time": 60},
+  {"id": "s-learning", "title": "Ways of learning", "prompt": "Compare two of these situations. Why might the people have chosen to learn in this way, and how effective might it be?", "points": ["an adult at an evening class", "a teenager learning from online videos", "an apprentice working beside an expert"], "prep": 15, "time": 60},
+  {"id": "s-pressure", "title": "Under pressure", "prompt": "Compare two of these situations. What kind of pressure are the people under, and how might they deal with it?", "points": ["a chef during a busy service", "a student the night before a final exam", "a manager presenting bad results to the board"], "prep": 15, "time": 60},
+  {"id": "s-celebrate", "title": "Celebrations", "prompt": "Compare two of these situations. Why might people celebrate in these ways, and how memorable might the occasions be?", "points": ["a team dinner after winning a big contract", "a small family birthday at home", "a company's 50th-anniversary event"], "prep": 15, "time": 60},
+  {"id": "s-talent", "examPart": "S3", "title": "Attracting young talent", "prompt": "Here are some things a company could do to attract young employees. Talk about how effective each might be, then decide which two would make the biggest difference.", "points": ["flexible hours", "a clear career path", "a strong environmental policy", "modern offices", "remote-work options"], "prep": 15, "time": 120},
+  {"id": "s-city", "examPart": "S3", "title": "A more liveable city", "prompt": "Here are some ways a city could become a better place to live. Talk about the benefits of each, then decide which one should be the priority.", "points": ["more green spaces", "cheaper public transport", "affordable housing", "more cultural events", "safer cycle lanes"], "prep": 15, "time": 120},
+  {"id": "s-productivity", "examPart": "S3", "title": "A more productive team", "prompt": "Here are some ways to make a team more productive. Talk about how each might help, then decide which would work best in your own workplace.", "points": ["fewer meetings", "better software tools", "clearer goals", "more autonomy", "regular feedback"], "prep": 15, "time": 120},
+  {"id": "s-profit", "examPart": "S4", "title": "Profit or people?", "prompt": "Is it ever right for a company to put profit before its employees' well-being? Why or why not?", "prep": 10, "time": 60},
+  {"id": "s-ai", "examPart": "S4", "title": "AI and language learning", "prompt": "Will artificial intelligence make learning foreign languages unnecessary? Give reasons and examples.", "prep": 10, "time": 60},
+  {"id": "s-impact", "examPart": "S4", "title": "Judging companies", "prompt": "Should companies be judged on their social impact as much as on their profits?", "prep": 10, "time": 60},
+  {"id": "s-data", "examPart": "S4", "title": "Trusting the data", "prompt": "Do organisations rely too much on data when making decisions? What gets lost?", "prep": 10, "time": 60}
+ ]
+}

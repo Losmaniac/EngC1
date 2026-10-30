@@ -1,0 +1,91 @@
+{
+ "module": "reading",
+ "kind": "passage",
+ "examPart": "R5",
+ "items": [
+  {
+   "id": "read-disconnect",
+   "title": "The quiet cost of always being available",
+   "text": [
+    "When our firm introduced a 'right to disconnect' policy last spring, the reaction among senior staff was, to put it kindly, muted. Several managers privately described it as a gesture aimed more at recruitment brochures than at real working lives. Six months on, I am inclined to think they were only half wrong.",
+    "The policy itself was modest: no emails expected between 7 p.m. and 7 a.m., and no meetings booked on Friday afternoons. What changed was not so much behaviour as permission. People who had always suspected that late-night replies were quietly noted at appraisal time suddenly had a document to point to. Whether they actually stopped replying is another matter.",
+    "Our own figures suggest that evening email traffic fell by about a third — hardly a revolution. Yet the number of sick days taken for stress-related reasons dropped more sharply, which hints that the real benefit lay less in hours saved than in anxiety relieved. Knowing you are allowed to switch off, it seems, matters almost as much as doing so.",
+    "None of this will surprise anyone who has managed a team through a crisis. Availability is contagious: when one manager answers at midnight, everyone below them feels obliged to follow. A policy cannot cure that on its own, but it can at least make the midnight reply look like a choice rather than a duty."
+   ],
+   "questions": [
+    {"q": "How did senior staff first react to the policy?", "options": ["They doubted it was meant to change much.", "They were openly hostile to it.", "They welcomed it as long overdue.", "They feared it would hurt productivity."], "answer": "They doubted it was meant to change much.", "explanation": "'A gesture aimed more at recruitment brochures' = they saw it as being for show.", "tags": ["reading", "attitude"]},
+    {"q": "What does the writer mean by 'they were only half wrong'?", "options": ["The managers' scepticism was partly justified.", "The policy failed completely.", "The managers later admitted their mistake.", "Half of the staff ignored the policy."], "answer": "The managers' scepticism was partly justified.", "explanation": "Only half wrong = half right: behaviour changed little, but the policy still had real value.", "tags": ["reading", "implication"]},
+    {"q": "According to paragraph 3, the main benefit of the policy was", "options": ["a reduction in stress rather than in hours.", "a large drop in evening emails.", "fewer meetings on Friday afternoons.", "better appraisal results."], "answer": "a reduction in stress rather than in hours.", "explanation": "'less in hours saved than in anxiety relieved'.", "tags": ["reading", "detail"]},
+    {"q": "What does the writer suggest about managers in the final paragraph?", "options": ["Their habits set expectations for their teams.", "They should be banned from emailing at night.", "They handle crises better than their staff.", "They rarely read late-night emails."], "answer": "Their habits set expectations for their teams.", "explanation": "'Availability is contagious … everyone below them feels obliged to follow.'", "tags": ["reading", "implication"]}
+   ]
+  },
+  {
+   "id": "read-multitasking",
+   "title": "The multitasking illusion",
+   "text": [
+    "Few claims on a CV are as common, or as quietly absurd, as 'excellent at multitasking'. Decades of research point in the same direction: what we call multitasking is, for most tasks that require thought, rapid switching between them — and every switch carries a cost.",
+    "The cost is easy to underestimate because it is spread thinly. A few seconds lost here, a dropped thread of reasoning there; none of it feels dramatic. Added up across a working day, however, it can account for a substantial share of the time we believe we spend being productive.",
+    "Curiously, the people most confident in their ability to juggle tasks often perform worst when tested. One explanation is that heavy multitaskers grow used to the pleasant buzz of novelty and mistake it for efficiency. Another, less flattering one is that they simply find it harder to ignore distractions in the first place.",
+    "This is not an argument for monk-like isolation. Some tasks — listening to a podcast while ironing, say — combine perfectly well because only one of them needs our attention. The trouble starts when we try to give full attention to two things at once and convince ourselves that we have succeeded."
+   ],
+   "questions": [
+    {"q": "The writer calls the CV claim 'quietly absurd' because it", "options": ["contradicts what research shows.", "is something nobody believes.", "is never checked by employers.", "is rarely written down."], "answer": "contradicts what research shows.", "explanation": "Research shows we switch, not multitask, so the claim makes little sense.", "tags": ["reading", "attitude"]},
+    {"q": "Why is the cost of switching 'easy to underestimate'?", "options": ["Each individual loss is small.", "It only affects complex tasks.", "Researchers disagree about it.", "It mainly happens late in the day."], "answer": "Each individual loss is small.", "explanation": "'spread thinly … none of it feels dramatic'.", "tags": ["reading", "detail"]},
+    {"q": "The 'less flattering' explanation suggests that heavy multitaskers", "options": ["are worse at filtering out distractions.", "enjoy novelty more than others do.", "are better at routine tasks.", "misunderstand the research."], "answer": "are worse at filtering out distractions.", "explanation": "'they simply find it harder to ignore distractions'.", "tags": ["reading", "implication"]},
+    {"q": "In the final paragraph, the writer", "options": ["accepts that some combinations of tasks are harmless.", "recommends working in complete silence.", "admits that the research is inconclusive.", "argues that podcasts reduce productivity."], "answer": "accepts that some combinations of tasks are harmless.", "explanation": "Podcast + ironing works because only one needs attention.", "tags": ["reading", "purpose"]}
+   ]
+  },
+  {
+   "id": "read-poland",
+   "title": "Selling to a market you think you know",
+   "text": [
+    "When a mid-sized Czech manufacturer of garden tools decided to expand into Poland, the board saw little risk. The two countries share a border, a history and, to a large extent, a climate. What could be simpler than repeating a formula that had worked at home?",
+    "Quite a lot, as it turned out. The firm's best-selling spade, a sturdy and deliberately plain design, barely moved off the shelves in its first season. Polish retailers had not been consulted on pricing, and the product landed in a segment where customers expected either a famous brand or a bargain. It was neither.",
+    "The turnaround came not from a new product but from a new partner. A regional distributor, initially sceptical, agreed to a trial on condition that the firm reworked its packaging and allowed local promotions. Sales in the second year were respectable rather than spectacular, but the relationship gave the company something its market research never had: an honest view from the shop floor.",
+    "The lesson the managing director now repeats at conferences is a simple one. Proximity breeds a dangerous kind of confidence. A distant, unfamiliar market forces you to ask questions; a neighbouring one tempts you to assume you already know the answers."
+   ],
+   "questions": [
+    {"q": "The question at the end of paragraph 1 is", "options": ["ironic, given what happened next.", "a genuine request for advice.", "the board's official strategy.", "a criticism of Polish retailers."], "answer": "ironic, given what happened next.", "explanation": "Paragraph 2 opens 'Quite a lot, as it turned out.'", "tags": ["reading", "tone"]},
+    {"q": "Why did the spade sell poorly at first?", "options": ["It was neither prestigious nor cheap enough.", "Its design was too complicated.", "Polish gardeners prefer different tools.", "Retailers refused to stock it."], "answer": "It was neither prestigious nor cheap enough.", "explanation": "Customers expected 'either a famous brand or a bargain. It was neither.'", "tags": ["reading", "detail"]},
+    {"q": "'Respectable rather than spectacular' suggests that second-year sales were", "options": ["acceptable but not outstanding.", "disappointing.", "far better than forecast.", "the best in the firm's history."], "answer": "acceptable but not outstanding.", "explanation": "Respectable = decent; not spectacular = not exceptional.", "tags": ["reading", "implication"]},
+    {"q": "What is the main point of the final paragraph?", "options": ["Familiarity can make companies overconfident.", "Distant markets carry less risk.", "Conferences are good places to share failures.", "Market research is a waste of money."], "answer": "Familiarity can make companies overconfident.", "explanation": "'Proximity breeds a dangerous kind of confidence.'", "tags": ["reading", "purpose"]}
+   ]
+  },
+  {
+   "id": "read-loyalty",
+   "title": "Loyalty, at a price",
+   "text": [
+    "Loyalty programmes have become so ubiquitous that it is easy to forget they are, at heart, a bet. A retailer gives away a slice of its margin today in the hope that customers will reward it with repeat business tomorrow. Whether the bet pays off is far less certain than the glossy apps suggest.",
+    "The awkward truth is that many members of a loyalty scheme would have come back anyway. For them, the points are a discount on purchases the shop would have made regardless — a pure cost dressed up as a marketing success. Retailers know this, which is why the more sophisticated ones now treat the data the schemes generate as the real prize.",
+    "That data can be valuable. It tells a supermarket who buys nappies on a Tuesday and wine on a Friday, and allows offers to be tailored accordingly. Yet it also raises questions that customers are only beginning to ask: how much of their behaviour they are willing to trade, and for how many points.",
+    "None of this means loyalty schemes are doomed. But the days when a plastic card and a vague promise of rewards were enough are clearly numbered. Customers have grown shrewder, and the schemes that survive will be those that offer something more convincing than a pile of points few people ever spend."
+   ],
+   "questions": [
+    {"q": "The writer calls loyalty programmes 'a bet' to emphasise that", "options": ["their benefits are uncertain.", "they are a form of gambling.", "customers usually lose out.", "they are banned in some countries."], "answer": "their benefits are uncertain.", "explanation": "'Whether the bet pays off is far less certain…'", "tags": ["reading", "purpose"]},
+    {"q": "'A pure cost dressed up as a marketing success' refers to", "options": ["rewards given to customers who would have returned anyway.", "the cost of developing loyalty apps.", "discounts on unpopular products.", "advertising for the scheme."], "answer": "rewards given to customers who would have returned anyway.", "explanation": "The points discount purchases 'the shop would have made regardless'.", "tags": ["reading", "reference"]},
+    {"q": "In paragraph 3, the writer implies that customers", "options": ["may start to question the value of sharing their data.", "already refuse to share their data.", "prefer tailored offers to points.", "do not understand how points work."], "answer": "may start to question the value of sharing their data.", "explanation": "'questions that customers are only beginning to ask'.", "tags": ["reading", "implication"]},
+    {"q": "What is the writer's overall view of loyalty schemes?", "options": ["They must offer more to stay relevant.", "They will soon disappear.", "They are a complete waste of money.", "They are more popular than ever."], "answer": "They must offer more to stay relevant.", "explanation": "'None of this means loyalty schemes are doomed … those that survive will offer something more convincing.'", "tags": ["reading", "attitude"]}
+   ]
+  },
+  {
+   "id": "read-plain",
+   "title": "In praise of plain English",
+   "text": [
+    "Every organisation has its dialect. Ours, I am sorry to say, includes 'leveraging synergies', 'circling back' and the inexplicably popular 'going forward', which appears to mean nothing more than 'from now on'. Jargon of this kind is rarely malicious. It is, more often, a form of camouflage.",
+    "The camouflage protects the writer rather than the reader. A vague sentence cannot easily be proved wrong, and a reader who fails to understand it is more likely to blame themselves than the author. In that sense, opaque prose is a remarkably safe choice — which is precisely why it spreads.",
+    "Plain English carries more risk. 'We will cut prices by 5% in March' is a promise someone can check; 'we will optimise our pricing architecture going forward' is not. Yet it is the first sentence that builds trust, because it treats the reader as an adult who deserves to know what is actually going to happen.",
+    "The good news is that clarity is a skill, not a talent. It can be practised, edited into existence and, crucially, rewarded. Organisations that want clear writing need only stop applauding the impressive-sounding memo and start asking its author one awkward question: what, exactly, do you mean?"
+   ],
+   "questions": [
+    {"q": "What does the writer mean by calling jargon 'camouflage'?", "options": ["It hides the writer's real meaning or commitment.", "It makes documents look modern.", "It is designed to deceive customers.", "It helps teams feel united."], "answer": "It hides the writer's real meaning or commitment.", "explanation": "Paragraph 2: it 'protects the writer' because vague claims can't be proved wrong. 'Rarely malicious' rules out deliberate deception.", "tags": ["reading", "reference"]},
+    {"q": "According to paragraph 2, opaque prose spreads because", "options": ["it protects writers from being shown to be wrong.", "readers enjoy decoding it.", "it is quicker to write.", "managers require it."], "answer": "it protects writers from being shown to be wrong.", "explanation": "'a remarkably safe choice — which is precisely why it spreads'.", "tags": ["reading", "detail"]},
+    {"q": "The two sentences about prices illustrate", "options": ["the difference between a checkable promise and a vague one.", "how jargon can be translated.", "why prices should be cut.", "the writer's preferred pricing policy."], "answer": "the difference between a checkable promise and a vague one.", "explanation": "One 'someone can check'; the other is not.", "tags": ["reading", "purpose"]},
+    {"q": "The tone of the final paragraph is best described as", "options": ["encouraging, with a practical challenge.", "bitter and resigned.", "neutral and technical.", "humorous and dismissive."], "answer": "encouraging, with a practical challenge.", "explanation": "'The good news is…' plus the awkward question to ask.", "tags": ["reading", "tone"]}
+   ]
+  },
+  {"kind": "order", "examPart": "R7", "block": true, "prompt": "Put the paragraphs in order (watch the linking words).", "tiles": ["Most companies treat customer complaints as a nuisance to be handled as quickly as possible.", "This is understandable, since complaints cost time and rarely feel productive.", "Yet a complaint is also free consulting: it tells you exactly where your product falls short.", "Firms that grasp this tend to log, analyse and even reward complaints rather than simply closing them."], "tags": ["reading", "text-structure"]},
+  {"kind": "order", "examPart": "R7", "block": true, "prompt": "Put the paragraphs in order (watch the linking words).", "tiles": ["In 2019, the company decided to move its warehouse from Prague to a smaller town in Moravia.", "The move was driven mainly by rent, which had tripled in a decade.", "Not everyone was pleased, however: a third of the staff refused to relocate.", "Replacing them took almost a year — a cost that the original business case had entirely ignored."], "tags": ["reading", "text-structure"]},
+  {"kind": "order", "examPart": "R7", "block": true, "prompt": "Put the paragraphs in order (watch the linking words).", "tiles": ["Negotiation training usually focuses on what to say.", "Far less attention is paid to what to leave unsaid.", "Silence, for instance, can be a powerful tool: many people rush to fill it with concessions.", "Learning to tolerate that discomfort may be worth more than any clever opening line."], "tags": ["reading", "text-structure"]},
+  {"kind": "order", "examPart": "R7", "block": true, "prompt": "Put the paragraphs in order (watch the linking words).", "tiles": ["Electric delivery vans were once dismissed as a niche experiment.", "Their range was limited and charging stations were scarce.", "Both problems have since eased considerably, and running costs are now lower than for diesel.", "As a result, several large logistics firms have pledged to stop buying diesel vans altogether by 2030."], "tags": ["reading", "text-structure"]}
+ ]
+}
