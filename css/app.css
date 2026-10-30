@@ -1,33 +1,49 @@
+/* Colour themes: each sets its accent pair for light (--al*) and dark (--ad*); every surface is tinted from the accent. */
+:root { --al: #5b3fd4; --al2: #7c4ff0; --ad: #9a85ff; --ad2: #b79cff; }
+:root[data-accent="blue"] { --al: #1d5fd1; --al2: #2f74e6; --ad: #6ea8ff; --ad2: #93c0ff; }
+:root[data-accent="teal"] { --al: #0f766e; --al2: #0d8a80; --ad: #4fd1c5; --ad2: #81e6d9; }
+:root[data-accent="green"] { --al: #2e7d32; --al2: #388e3c; --ad: #7bd389; --ad2: #a5e3ae; }
+:root[data-accent="orange"] { --al: #c2410c; --al2: #d9560f; --ad: #ffa36b; --ad2: #ffc39a; }
+:root[data-accent="rose"] { --al: #be185d; --al2: #d61f6b; --ad: #ff8fb8; --ad2: #ffb3cd; }
+:root[data-accent="graphite"] { --al: #3f4451; --al2: #5b6170; --ad: #c9ced8; --ad2: #e3e6ec; }
+
 :root {
-  --bg: #f7f5ff; --surface: #ffffff; --surface-2: #f0edfb; --line: #e2ddf3;
-  --text: #17132b; --text-2: #4d4766; --muted: #6e6888;
-  --accent: #5b3fd4; --accent-2: #8b5cf6; --on-accent: #fff;
+  --accent: var(--al); --accent-2: var(--al2); --on-accent: #fff;
+  --bg: color-mix(in srgb, var(--accent) 5%, #fbfbfc); --surface: #ffffff; --surface-2: color-mix(in srgb, var(--accent) 8%, #f5f5f7);
+  --line: color-mix(in srgb, var(--accent) 14%, #e3e3e8); --track: color-mix(in srgb, var(--accent) 10%, #ebebef);
+  --text: #17151f; --text-2: #4a4857; --muted: #6a6878;
   --good: #0c8a4a; --good-bg: #dcf5e7; --bad: #c62f3a; --bad-bg: #fde3e5; --warn: #b26b00;
-  --series: #2a78d6; --track: #ebe8f5;
-  --c0: #5b3fd4; --c1: #eb6834; --c2: #1baf7a; --c3: #eda100;
+  --series: #2a78d6;
+  --c0: var(--accent); --c1: #eb6834; --c2: #1baf7a; --c3: #eda100;
   --radius: 16px; --shadow: 0 1px 2px rgb(23 19 43 / .06), 0 6px 20px rgb(23 19 43 / .06);
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #110e1d; --surface: #1b1730; --surface-2: #241f3d; --line: #332d52;
-    --text: #f1eefc; --text-2: #c9c3e3; --muted: #9b94b8;
-    --accent: #9a85ff; --accent-2: #b79cff; --on-accent: #120d26;
+    --accent: var(--ad); --accent-2: var(--ad2); --on-accent: #111016;
+    --bg: color-mix(in srgb, var(--accent) 6%, #0e0e12); --surface: color-mix(in srgb, var(--accent) 8%, #17171c); --surface-2: color-mix(in srgb, var(--accent) 12%, #1f1f25);
+    --line: color-mix(in srgb, var(--accent) 18%, #2b2b33); --track: color-mix(in srgb, var(--accent) 14%, #25252c);
+    --text: #f1f0f5; --text-2: #c8c6d2; --muted: #9a98a8;
     --good: #4ed58c; --good-bg: #173a2a; --bad: #ff7b85; --bad-bg: #44202a; --warn: #f2b14c;
-    --series: #3987e5; --track: #2c2747;
+    --series: #3987e5;
     --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 8px 24px rgb(0 0 0 / .25);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #110e1d; --surface: #1b1730; --surface-2: #241f3d; --line: #332d52;
-  --text: #f1eefc; --text-2: #c9c3e3; --muted: #9b94b8;
-  --accent: #9a85ff; --accent-2: #b79cff; --on-accent: #120d26;
+  --accent: var(--ad); --accent-2: var(--ad2); --on-accent: #111016;
+  --bg: color-mix(in srgb, var(--accent) 6%, #0e0e12); --surface: color-mix(in srgb, var(--accent) 8%, #17171c); --surface-2: color-mix(in srgb, var(--accent) 12%, #1f1f25);
+  --line: color-mix(in srgb, var(--accent) 18%, #2b2b33); --track: color-mix(in srgb, var(--accent) 14%, #25252c);
+  --text: #f1f0f5; --text-2: #c8c6d2; --muted: #9a98a8;
   --good: #4ed58c; --good-bg: #173a2a; --bad: #ff7b85; --bad-bg: #44202a; --warn: #f2b14c;
-  --series: #3987e5; --track: #2c2747;
+  --series: #3987e5;
   --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 8px 24px rgb(0 0 0 / .25);
   color-scheme: dark;
 }
+.swatches { display: flex; flex-wrap: wrap; gap: 10px; padding: 6px 0; }
+.swatch { width: 40px; height: 40px; border-radius: 50%; border: 3px solid var(--surface); box-shadow: 0 0 0 2px var(--line); cursor: pointer; transition: transform .15s; }
+.swatch:hover { transform: scale(1.08); }
+.swatch[aria-pressed="true"] { box-shadow: 0 0 0 3px var(--text); }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }

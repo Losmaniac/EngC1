@@ -263,7 +263,12 @@ function settings() {
     h('section.panel', {}, h('h2', 'Practice'),
       h('label.field', {}, 'Daily session size', h('select', { onchange: e => save({ size: Number(e.target.value) }) }, [10, 20, 30].map(n => h('option', { value: n, selected: (s.size || 20) === n }, `${n} items`)))),
       h('label.field', {}, 'Voice speed', h('select', { onchange: e => save({ rate: Number(e.target.value) }) }, [[0.9, 'Calm'], [1, 'Native'], [1.15, 'Fast native']].map(([v, l]) => h('option', { value: v, selected: (s.rate || 1) === v }, l)))),
-      h('label.field', {}, 'Theme', h('select', { onchange: e => save({ theme: e.target.value }) }, ['auto', 'light', 'dark'].map(t => h('option', { value: t, selected: (s.theme || 'auto') === t }, t))))),
+      h('label.field', {}, 'Light or dark', h('select', { onchange: e => save({ theme: e.target.value }) }, [['auto', 'Match device'], ['light', 'Light'], ['dark', 'Dark']].map(([t, l]) => h('option', { value: t, selected: (s.theme || 'auto') === t }, l)))),
+      h('div.field', {}, 'Colour', h('div.swatches', { role: 'group', 'aria-label': 'Colour' }, ACCENTS.map(([id, name, hex]) =>
+        h('button.swatch', { style: `background:${hex}`, title: name, 'aria-label': name, 'aria-pressed': String((s.accent || 'violet') === id), onclick: e => {
+          for (const b of e.currentTarget.parentNode.children) b.setAttribute('aria-pressed', String(b === e.currentTarget));
+          save({ accent: id });
+        } }))))),
     h('section.panel', {}, h('h2', 'AI writing feedback (optional)'),
       h('p.small', 'Paste your own Claude API key to get examiner-style feedback in the Writing Lab. It is stored only in this browser, is sent only to api.anthropic.com, and is left out of progress exports. Anyone using this browser profile could read it, so use a key with a low spending limit and keep this personal.'),
       h('div.row', {}, key, h('button.btn.primary', { onclick: async () => { await save({ key: key.value.trim() }); toast(key.value.trim() ? 'Key saved on this device' : 'Key removed'); } }, 'Save'))),
@@ -334,10 +339,15 @@ function route() {
   scrollTo(0, 0);
 }
 
+// Matches the colour themes in css/app.css.
+const ACCENTS = [['violet', 'Violet', '#5b3fd4'], ['blue', 'Blue', '#1d5fd1'], ['teal', 'Teal', '#0f766e'], ['green', 'Green', '#2e7d32'], ['orange', 'Orange', '#c2410c'], ['rose', 'Rose', '#be185d'], ['graphite', 'Graphite', '#3f4451']];
+
 function applyTheme() {
-  const t = kv.settings?.theme;
-  if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
-  else delete document.documentElement.dataset.theme;
+  const root = document.documentElement, t = kv.settings?.theme;
+  if (t === 'light' || t === 'dark') root.dataset.theme = t;
+  else delete root.dataset.theme;
+  root.dataset.accent = kv.settings?.accent || 'violet';
+  document.querySelector('meta[name="theme-color"]').content = getComputedStyle(root).getPropertyValue('--accent').trim();
 }
 
 async function start() {
