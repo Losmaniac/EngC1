@@ -45,7 +45,10 @@ export function confetti() {
 // Browser text-to-speech; prefers a British voice.
 export function speak(text, rate = 1) {
   if (!('speechSynthesis' in window)) return false;
-  speechSynthesis.cancel();
+  // iOS starts web audio as 'ambient', which the silent switch mutes; 'playback' is how media apps play anyway (Safari 17+).
+  if (navigator.audioSession) navigator.audioSession.type = 'playback';
+  // On iOS, cancel() followed immediately by speak() can drop the new utterance, so only cancel when something is playing.
+  if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
   const voices = speechSynthesis.getVoices();
   u.voice = voices.find(v => v.lang === 'en-GB') || voices.find(v => v.lang.startsWith('en')) || null;

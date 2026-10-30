@@ -56,8 +56,10 @@ function listenBar(text, c) {
   }
   c.body.append(h('div.listen', {},
     h('button.btn.play', { onclick: () => speak(text, rate) }, '▶ Play'),
-    h('button.btn.ghost', { onclick: () => speak(text, rate * 0.8) }, '🐢 Slower')));
+    h('button.btn.ghost', { onclick: () => speak(text, rate * 0.8) }, '🐢 Slower')),
+    ...(IOS ? [h('p.muted.small', 'No sound? Switch the iPhone’s Ring/Silent switch to ring and turn the volume up.')] : []));
 }
+const IOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
 const input = (props) => h('input.gap', { autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', ...props });
 // preventDefault stops the same Enter press from also clicking the Continue button that takes focus.
