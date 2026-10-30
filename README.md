@@ -19,7 +19,7 @@ Then open http://localhost:8080. (It must be served over http, not opened as a f
 Push this folder to a GitHub repository, then go to Settings → Pages → Deploy from branch → `main` / root.
 The app uses relative paths, so it works under `https://<user>.github.io/<repo>/`.
 
-The service worker serves the cached copy first and refreshes it in the background, so a new version shows up on the second load after a deploy.
+The service worker serves the cached copy first and checks the server in the background, so a new version shows up on the second load after a deploy finishes.
 If you add or rename files, update the list in `sw.js` and bump `CACHE`.
 
 ## Data
